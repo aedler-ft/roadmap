@@ -59,7 +59,7 @@ The following is a list of our current areas we deliver value for:
 
 ## Roadmap updates
 
-Updates of the roadmap will be documented and published in the fiskaltrust [Release Repository](https://github.com/fiskaltrust/release-notes).
+Updates of the roadmap will be documented and published in the fiskaltrust [release repository](https://github.com/fiskaltrust/release-notes).
 
 ## Disclaimer
 
