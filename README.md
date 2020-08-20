@@ -58,6 +58,10 @@ The following is a list of our current areas we deliver value for:
 - **production**: *available to all customers in a defined market*
   Ready for production use together with technical support and documentation. 
 
+## Roadmap updates
+
+Updates of the roadmap will be documented and published in the fiskaltrust [Release Repository](https://github.com/fiskaltrust/release-notes).
+
 ## Disclaimer
 
 Any statement in this repository that is not purely historical is considered a forward-looking statement. Forward-looking statements included in this repository are based on information available to fiskaltrust as of the date they are made, and fiskaltrust assumes no obligation to update any forward-looking statements. The forward-looking product roadmap does not represent a commitment, guarantee, obligation or promise to deliver any product or feature, or to deliver any product and feature by any particular date, and is intended to outline the general development plans. Customers should not rely on this roadmap to make any purchasing decision.
