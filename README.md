@@ -17,6 +17,7 @@ Every item on the roadmap is an issue, with a label that indicates each of the f
 - A target **customer segment** for whom the roadmap item we plan to deliver will create most value for. For a list of currently addressed customer segments, see below.
 - A target **market** for which the roadmap item will be rolled out. For a list of markets where fiskaltrust products are available, see below.
 - A **value area** that indicates the area of where the item belongs to. For a list of current value areas, see below.
+- a **feature-classification** for forecasted customer expectation- and satisfaction
 - A **release phase** that describes the next expected phase of the roadmap item. See below for a guide to release phases.
 
 ### Customer Segments
@@ -48,6 +49,31 @@ The following is a list of our current areas we deliver value for:
 - **middleware**: market dependent improvements or additions to our lokal or cloud based middleware, including its [interface to access its functionalities](https://docs.fiskaltrust.cloud/doc/interface-doc/doc/general/general.html).
 - **portal**: improvements or additions for the [fiskaltrust.portal](https://docs.fiskaltrust.cloud/doc/portal-manual-doc/doc/handbook-general/disclaimer.html).
 - **product bundles**: improvements or additions towards our market facing products, addons & bundles.
+
+### Feature value classification
+
+The following is a list of our feature value classification we use to classify feature value and prioritize feature development.
+
+- **basic:** These are basically the features that a compliance product must have in a market in order to meet customer demands. Therefore, these features have highest priority.
+- **performance:** Theses features result in satisfaction when fulfilled and dissatisfaction when not fulfilled.
+- **delight:** These features provide satisfaction when achieved fully, but do not cause dissatisfaction when not fulfilled. These are features that are not normally expected by our customers.
+
+The following table provides an overview of our feature value classification assessment:
+
+| **Functional** <br />(Feature existing) |      | **Dysfunctional** <br />(Feature not existing) |      | Feature classification |
+| --------------------------------------- | ---- | ---------------------------------------------- | ---- | ---------------------- |
+| I expect it                             | +    | I dislike it                                   | →    | basic                  |
+| I like it                               | +    | I dislike it                                   | →    | performance            |
+| I like it                               | +    | I am neutral                                   | →    | delight                |
+
+#### Example
+
+|                                                              | I like it | I expect it | I am neutral | I can tolerate it | I dislike it |
+| ------------------------------------------------------------ | --------- | ----------- | ------------ | ----------------- | ------------ |
+| **Functional**                                               |           |             |              |                   |              |
+| How would you feel if fiskaltrust provides a DSFinV-K export for the german market? |           | X           |              |                   |              |
+| **Dysfunctional**                                            |           |             |              |                   |              |
+| How would you feel if fiskaltrust *did not provide* a DSFinV-K export for the german market? |           |             |              |                   | X            |
 
 ### Release phases
 
