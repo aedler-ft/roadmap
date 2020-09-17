@@ -1,6 +1,6 @@
 # fiskaltrust public roadmap
 
-In this repository, you can find the official fiskaltrust public product roadmap. Our product roadmap is where you can learn about what features we are working on, what stage they are in, and when we expect to bring them to you.
+This repository is the source for the [official fiskaltrust public product roadmap](https://github.com/orgs/fiskaltrust/projects/1). Our product roadmap is where you can learn about what features we are working on, what stage they are in, and when we expect to bring them to you.
 
 ## Feedback
 
@@ -80,7 +80,7 @@ The following table provides an overview of our feature value classification ass
 - **alpha**: *Primarily for testing and feedback*<br>Limited availability (on request only), and only on sandbox environment. Features still under heavy development, and subject to change. Not for production use, and no documentation or support provided.
 - **release candidate**: *Publicly available in full or limited capacity*<br>
   Features mostly complete and documented. Timeline and requirements for production usually published. Support provided. Purpose of this phase is to collect feedback and experience in production use to ensure stable usage under conditions which can't be simulated during the development phase.
-- **production**: *available to all customers in a defined market*<br>
+- **stable**: *Publicly available to all customers in a defined market*<br>
   Ready for production use together with technical support and documentation. 
 
 ## Roadmap updates
